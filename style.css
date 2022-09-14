@@ -24,3 +24,8 @@ main {
   justify-content: right;
   height: 500px;
 }
+
+.etiqueta {
+  display: flex;
+  flex-direction: column;
+}
