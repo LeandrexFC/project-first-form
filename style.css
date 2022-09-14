@@ -1,5 +1,10 @@
 .header {
-    display: flex;
-    width: 100%;
-    background-color: rgb(50, 167, 145);
+  display: flex;
+  width: 100%;
+  background-color: rgb(50, 167, 145);
+}
+
+form {
+  display: flex;
+  justify-content: center;
 }
