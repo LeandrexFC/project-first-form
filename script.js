@@ -17,11 +17,11 @@ btn.addEventListener('click', teste);
 
 const teste2 = () => {
   if (box.checked === true) {
-    btn2.disabled = false
+    btn2.disabled = false;
   } else {
-    btn2.disabled = true
+    btn2.disabled = true;
   }
-}
+};
 
 box.addEventListener('click', teste2);
 teste2();
