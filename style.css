@@ -5,7 +5,7 @@
   justify-content: center;
 }
 
-form {
+.trybewarts-login {
   display: flex;
   justify-content: center;
 }
@@ -15,11 +15,14 @@ main {
 }
 
 #evaluation-form {
+  border: solid red 3px;
   display: flex;
   width: 675px;
   flex-direction: column;
 }
 
 #trybewarts-forms-logo {
+  justify-content: right;
+  border: solid yellow 3px;
   height: 500px;
 }
