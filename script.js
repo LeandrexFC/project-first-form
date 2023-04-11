@@ -3,8 +3,8 @@ const btn2 = document.getElementById('submit-btn');
 const box = document.getElementById('agreement');
 
 const teste = () => {
-  const login = document.getElementById('email').value;
-  const password = document.getElementById('senha').value;
+  const login = document.getElementById('staticEmail2').value;
+  const password = document.getElementById('inputPassword2').value;
 
   if (login === 'tryber@teste.com' && password === '123456') {
     alert('Olá, Tryber!');
